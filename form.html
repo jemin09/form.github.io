@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="styleform.css">
+    
+</head>
+<body >
+    
+    
+    <div >
+        <form class="registration-form"  >
+            <h2>registration From</h2>
+            <table class="table-design">
+               <tr>
+                <td><p>First Name:</p></td>  
+                <td><input type="text" placeholder="first name" name="first name" required pattern="[a-zA-Z]+"  ></td>
+               </tr> 
+               <tr>
+                <td><p>Last Name: </p>  </td>  
+                <td><input type="text" placeholder="last name" name="last name" required pattern="[a-zA-Z]+" ></td>
+               </tr> 
+               <tr>
+                <td><p> Name: </p> </td>  
+                <td><input type="text" placeholder="Father Name:" name="Father Name:" required pattern="[a-zA-Z]+" ></td>
+               </tr> 
+               <tr>
+                <td><p>DOB</p></td>  
+                <td><input type="date" placeholder="date of birth" name="date of birth"  ></td>
+               </tr> 
+               <tr>
+                <td><p>Gender</p>  </td>  
+                <td><input type="radio" name="gender" value="male" >Male
+                    <input type="radio" name="gender" value="female" >female
+                    <input type="radio" name="gender" value="other" >others</td>
+               </tr> 
+               <td><p>Phone No:</p></td>  
+               <td><input type="text" name="phone"  placeholder="phone number" required pattern="[0-9]+"></td>
+              </tr> 
+              <tr>
+                  <td><p>Email:</p></td>
+                  <td><input type="email" placeholder="your email" name="email:"></td>
+              </tr>
+              <tr>
+                  <td><p>New password:</p></td>
+                  <td> <input type="password" placeholder="password" name="pdw" id="passwords" value="" >
+                <span id="massages"></span></td>
+              </tr>
+              <tr>
+                <td><p>confirm password:</p></td>
+                <td> <input type="password" placeholder="re-entered password" name="pdw"id="passwords" value="" >
+                    <span id="massagess"></span></td>
+            </tr>
+         
+        </table>
+        
+       <p class="btn-design"><input type="submit" id="submitbutton" value="Submit"> <br>
+        Already have an account?<a href="login.html" target="_blank">login</a></p>
+
+        </form>
+        
+
+           
+          
+    </div>
+   
+</body>
+</html>
